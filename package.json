@@ -1,0 +1,26 @@
+{
+  "name": "teachable",
+  "version": "0.1.0",
+  "description": "e2e tests with cypress and cucumber",
+  "scripts": {
+    "test": "yarn run cypress run --record --key ",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "teachable"
+  ],
+  "devDependencies": {
+    "@testing-library/cypress": "^7.0.4",
+    "cypress": "^6.8.0",
+    "cypress-cucumber-preprocessor": "^4.0.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-fill-command": "^1.0.2",
+    "faker": "^5.5.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
+}
