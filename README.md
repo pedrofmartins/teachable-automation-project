@@ -6,7 +6,7 @@
     <li>Clone repository</li>
     <li>Run the tests using: npx cypress open</li>
     <li>Run parallel tests with: browserstack-cypress run --sync<li>
-    <li>Also you can see the following screenshots of the browserstack dashboard with the tests in a several number of browsers<li>
+    <li>Also you can see the following screenshots of the browserstack dashboard<li>
 
 <div align="center">
 <img src="/images/browserstack1.png">
